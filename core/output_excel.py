@@ -221,7 +221,7 @@ class ExcelOutput:
                     
                     # Format IP list with count
                     ip_display = ', '.join(ip_list[:5])
-                    if len(ip_list) > 5:
+                    if len(ip_list) > 20:
                         ip_display += f" +{len(ip_list)-5} more"
                     
                     # Format hostnames (show unique)
